@@ -144,7 +144,7 @@ const AIAssistantWidget = () => {
             </Button>
           </div>
 
-          <ScrollArea className="h-[420px] px-4 py-4" viewportRef={scrollViewportRef}>
+          <ScrollArea className="h-[420px] px-4 py-4" ref={scrollViewportRef}>
             <div className="space-y-3">
               {messages.map((message) => {
                 const isAssistant = message.role === "assistant";
