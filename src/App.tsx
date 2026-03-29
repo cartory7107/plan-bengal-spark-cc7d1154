@@ -9,6 +9,7 @@ import WhoMadeThis from "./pages/WhoMadeThis.tsx";
 import MyHistory from "./pages/MyHistory.tsx";
 import SavedTrips from "./pages/SavedTrips.tsx";
 import NotFound from "./pages/NotFound.tsx";
+import ResetPassword from "./pages/ResetPassword.tsx";
 
 const queryClient = new QueryClient();
 
@@ -24,6 +25,7 @@ const App = () => (
             <Route path="/who-made-this" element={<WhoMadeThis />} />
             <Route path="/my-history" element={<MyHistory />} />
             <Route path="/saved-trips" element={<SavedTrips />} />
+            <Route path="/reset-password" element={<ResetPassword />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
