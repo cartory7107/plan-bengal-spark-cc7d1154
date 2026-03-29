@@ -9,6 +9,7 @@ import WhoMadeThis from "./pages/WhoMadeThis.tsx";
 import MyHistory from "./pages/MyHistory.tsx";
 import SavedTrips from "./pages/SavedTrips.tsx";
 import NotFound from "./pages/NotFound.tsx";
+import ResetPassword from "./pages/ResetPassword.tsx";
 
 const queryClient = new QueryClient();
 
