@@ -99,6 +99,7 @@ const Index = () => {
         </div>
       )}
       <Footer language={language} />
+      <WelcomePopup />
       <AIChatBubble />
     </div>
   );
