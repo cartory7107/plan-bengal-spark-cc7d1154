@@ -14,7 +14,123 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      profiles: {
+        Row: {
+          auth_provider: string | null
+          avatar_url: string | null
+          created_at: string
+          display_name: string | null
+          email: string | null
+          id: string
+          updated_at: string
+        }
+        Insert: {
+          auth_provider?: string | null
+          avatar_url?: string | null
+          created_at?: string
+          display_name?: string | null
+          email?: string | null
+          id: string
+          updated_at?: string
+        }
+        Update: {
+          auth_provider?: string | null
+          avatar_url?: string | null
+          created_at?: string
+          display_name?: string | null
+          email?: string | null
+          id?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
+      saved_trips: {
+        Row: {
+          budget: string | null
+          created_at: string
+          currency: string | null
+          departure_city: string | null
+          destination: string
+          id: string
+          itinerary_data: Json
+          trip_duration: number | null
+          user_id: string
+        }
+        Insert: {
+          budget?: string | null
+          created_at?: string
+          currency?: string | null
+          departure_city?: string | null
+          destination: string
+          id?: string
+          itinerary_data: Json
+          trip_duration?: number | null
+          user_id: string
+        }
+        Update: {
+          budget?: string | null
+          created_at?: string
+          currency?: string | null
+          departure_city?: string | null
+          destination?: string
+          id?: string
+          itinerary_data?: Json
+          trip_duration?: number | null
+          user_id?: string
+        }
+        Relationships: []
+      }
+      search_history: {
+        Row: {
+          budget: string | null
+          created_at: string
+          currency: string | null
+          departure_city: string
+          destination_city: string
+          food: string | null
+          hotel: string | null
+          id: string
+          itinerary_data: Json | null
+          season: string | null
+          transport: string | null
+          travel_type: string | null
+          trip_duration: number
+          user_id: string
+        }
+        Insert: {
+          budget?: string | null
+          created_at?: string
+          currency?: string | null
+          departure_city: string
+          destination_city: string
+          food?: string | null
+          hotel?: string | null
+          id?: string
+          itinerary_data?: Json | null
+          season?: string | null
+          transport?: string | null
+          travel_type?: string | null
+          trip_duration: number
+          user_id: string
+        }
+        Update: {
+          budget?: string | null
+          created_at?: string
+          currency?: string | null
+          departure_city?: string
+          destination_city?: string
+          food?: string | null
+          hotel?: string | null
+          id?: string
+          itinerary_data?: Json | null
+          season?: string | null
+          transport?: string | null
+          travel_type?: string | null
+          trip_duration?: number
+          user_id?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
