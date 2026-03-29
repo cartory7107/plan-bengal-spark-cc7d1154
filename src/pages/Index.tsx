@@ -8,6 +8,7 @@ import ItineraryResult from "@/components/ItineraryResult";
 import Footer from "@/components/Footer";
 import AIChatBubble from "@/components/AIChatBubble";
 import SignUpBanner from "@/components/SignUpBanner";
+import WelcomePopup from "@/components/WelcomePopup";
 import SaveTripButton from "@/components/SaveTripButton";
 import { generateDynamicItinerary } from "@/lib/travelApi";
 import type { Itinerary, FormData } from "@/lib/generateItinerary";
