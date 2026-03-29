@@ -33,7 +33,7 @@ const WelcomePopup = () => {
 
   return (
     <Dialog open={open} onOpenChange={setOpen}>
-      <DialogContent className="sm:max-w-md border-0 bg-white/10 backdrop-blur-xl shadow-2xl rounded-2xl overflow-visible p-0 [&>button]:hidden">
+      <DialogContent className="sm:max-w-md border border-border/30 bg-background shadow-2xl rounded-2xl overflow-visible p-0 [&>button]:hidden">
         <div className="relative px-8 py-10 text-center">
           {floatingEmojis.map((item, i) => (
             <span
