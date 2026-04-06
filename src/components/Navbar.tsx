@@ -1,10 +1,11 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Plane, Globe, LogIn, UserPlus } from "lucide-react";
+import { Globe, LogIn, UserPlus } from "lucide-react";
 import { t } from "@/lib/translations";
 import { useAuth } from "@/contexts/AuthContext";
 import UserMenu from "@/components/UserMenu";
 import AuthModal from "@/components/AuthModal";
+import logoImg from "@/assets/logo.png";
 
 const LANGUAGES = [
   "English","Bangla","Hindi","Urdu","Arabic","Spanish","French","German","Chinese",
