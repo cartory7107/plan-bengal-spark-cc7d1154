@@ -72,9 +72,9 @@ const WhoMadeThis = () => {
               </div>
               <div className="text-center md:text-left space-y-3 flex-1">
                 <h2 className="text-3xl font-extrabold tracking-tight text-foreground">Al Amin Jisan</h2>
-                <p className="text-sm font-semibold uppercase tracking-wider text-primary">CEO &amp; Founder of Cartory BD</p>
+                <p className="text-sm font-semibold uppercase tracking-wider text-primary">CEO &amp; Founder of Traveltics</p>
                 <p className="text-muted-foreground leading-relaxed">
-                  Al Amin Jisan is a young tech entrepreneur from Bangladesh and the founder of Cartory BD. He is building intelligent AI-powered digital platforms designed to help businesses, travelers, and creators worldwide.
+                  Al Amin Jisan is a young tech entrepreneur from Bangladesh and the founder of Traveltics. He is building intelligent AI-powered digital platforms designed to help businesses, travelers, and creators worldwide.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
                   He focuses on creating practical AI solutions that solve real-world problems using automation and smart systems.
