@@ -46,7 +46,7 @@ const WelcomePopup = () => {
           ))}
 
           <div className="space-y-4">
-            <p className="text-4xl sm:text-5xl">🌟</p>
+            <img src={logoImg} alt="Traveltics logo" className="w-16 h-16 rounded-2xl mx-auto" />
             <h2 className="text-2xl sm:text-3xl font-bold text-foreground leading-tight">
               Plan Your Perfect Trip
               <br />
