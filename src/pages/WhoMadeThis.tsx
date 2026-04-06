@@ -101,12 +101,12 @@ const WhoMadeThis = () => {
             </div>
           </section>
 
-          {/* ─── SECTION 4: ABOUT CARTORY BD ─── */}
+          {/* ─── SECTION 4: ABOUT TRAVELTICS ─── */}
           <section className="sr space-y-8">
             <div className="text-center space-y-3">
-              <h2 className="text-3xl font-extrabold tracking-tight text-foreground">About Cartory BD</h2>
+              <h2 className="text-3xl font-extrabold tracking-tight text-foreground">About Traveltics</h2>
               <p className="text-muted-foreground max-w-xl mx-auto leading-relaxed">
-                Cartory BD is an emerging AI-focused technology initiative working on smart automation tools, travel intelligence platforms, and digital business solutions.
+                Traveltics is an emerging AI-focused technology initiative working on smart automation tools, travel intelligence platforms, and digital business solutions.
               </p>
             </div>
 
