@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
-import { Plane, MessageCircle, Mail } from "lucide-react";
+import { MessageCircle, Mail } from "lucide-react";
 import { t } from "@/lib/translations";
+import logoImg from "@/assets/logo.png";
 
 const Footer = ({ language = "English" }: { language?: string }) => (
   <footer className="section-padding-sm border-t border-border/50">
