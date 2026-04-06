@@ -127,7 +127,7 @@ const AuthModal = ({ isOpen, onClose, defaultTab = "login" }: AuthModalProps) =>
           <div className="space-y-5">
             <div className="text-center space-y-1.5">
               <h2 className="text-xl font-bold text-foreground">
-                Continue with <span className="gradient-text">Cartory Travel AI</span>
+                Continue with <span className="gradient-text">Traveltics</span>
               </h2>
               <p className="text-sm text-muted-foreground">
                 Sign in to save trips, track history & unlock more features
