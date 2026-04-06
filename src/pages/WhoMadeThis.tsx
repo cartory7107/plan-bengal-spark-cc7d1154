@@ -41,7 +41,7 @@ const WhoMadeThis = () => {
             <ArrowLeft className="w-4 h-4" /> Back to Planner
           </Link>
           <span className="text-sm font-bold tracking-tight text-foreground">
-            Cartory <span className="gradient-text">Travel</span> AI
+            Traveltics
           </span>
         </div>
       </nav>
