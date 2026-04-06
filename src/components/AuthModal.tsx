@@ -173,7 +173,7 @@ const AuthModal = ({ isOpen, onClose, defaultTab = "login" }: AuthModalProps) =>
             </button>
 
             <p className="text-xs text-center text-muted-foreground pt-1">
-              By continuing, you agree to Cartory Travel AI's Terms of Service
+              By continuing, you agree to Traveltics' Terms of Service
             </p>
           </div>
         )}
