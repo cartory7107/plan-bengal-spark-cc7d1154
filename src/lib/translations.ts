@@ -83,7 +83,7 @@ const en: Record<TranslationKey, string> = {
   generating: "Generating Your Plan...",
   generateBtn: "Generate AI Travel Plan",
   tripReady: "Trip is Ready!",
-  congratsMsg: "You are planning a smart optimized trip using Cartory Travel AI.",
+  congratsMsg: "You are planning a smart optimized trip using Traveltics.",
   budgetDisclaimer: "Actual price may vary depending on season and availability.",
   itineraryTitle: "Day-by-Day Itinerary",
   hotelsTitle: "Hotel Suggestions",
