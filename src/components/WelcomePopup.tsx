@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
+import logoImg from "@/assets/logo.png";
 
 const floatingEmojis = [
   { emoji: "✈️", style: "top-4 left-6 animate-[bounce_3s_ease-in-out_infinite]" },

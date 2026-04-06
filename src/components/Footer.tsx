@@ -7,9 +7,7 @@ const Footer = ({ language = "English" }: { language?: string }) => (
   <footer className="section-padding-sm border-t border-border/50">
     <div className="container max-w-4xl mx-auto text-center space-y-6">
       <a href="#" className="inline-flex items-center gap-2.5 group">
-        <div className="gradient-bg rounded-xl p-2">
-          <Plane className="w-5 h-5 text-primary-foreground" />
-        </div>
+        <img src={logoImg} alt="Traveltics logo" className="w-9 h-9 rounded-xl" />
         <span className="text-lg font-bold tracking-tight text-foreground">
           Traveltics
         </span>

@@ -36,9 +36,7 @@ const Navbar = ({ language = "English", onLanguageChange }: NavbarProps) => {
       }`}>
         <div className="container max-w-6xl mx-auto flex items-center justify-between px-4">
           <Link to="/" className="flex items-center gap-2.5 group">
-            <div className="gradient-bg rounded-xl p-2 transition-transform duration-200 group-hover:scale-105 group-active:scale-95">
-              <Plane className="w-5 h-5 text-primary-foreground" />
-            </div>
+            <img src={logoImg} alt="Traveltics logo" className="w-9 h-9 rounded-xl transition-transform duration-200 group-hover:scale-105 group-active:scale-95" />
             <span className="text-lg font-bold tracking-tight text-foreground">
               Traveltics
             </span>
