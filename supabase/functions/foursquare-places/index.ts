@@ -36,7 +36,7 @@ serve(async (req) => {
 
     const response = await fetch(url, {
       headers: {
-        'User-Agent': 'CartoryTravelAI/1.0',
+        'User-Agent': 'Traveltics/1.0',
         'Accept': 'application/json',
       },
     });

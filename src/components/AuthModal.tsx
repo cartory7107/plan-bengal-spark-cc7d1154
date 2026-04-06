@@ -127,7 +127,7 @@ const AuthModal = ({ isOpen, onClose, defaultTab = "login" }: AuthModalProps) =>
           <div className="space-y-5">
             <div className="text-center space-y-1.5">
               <h2 className="text-xl font-bold text-foreground">
-                Continue with <span className="gradient-text">Cartory Travel AI</span>
+                Continue with <span className="gradient-text">Traveltics</span>
               </h2>
               <p className="text-sm text-muted-foreground">
                 Sign in to save trips, track history & unlock more features
@@ -173,7 +173,7 @@ const AuthModal = ({ isOpen, onClose, defaultTab = "login" }: AuthModalProps) =>
             </button>
 
             <p className="text-xs text-center text-muted-foreground pt-1">
-              By continuing, you agree to Cartory Travel AI's Terms of Service
+              By continuing, you agree to Traveltics' Terms of Service
             </p>
           </div>
         )}
@@ -237,7 +237,7 @@ const AuthModal = ({ isOpen, onClose, defaultTab = "login" }: AuthModalProps) =>
           <div>
             <BackButton to="main" />
             <h2 className="text-xl font-bold text-foreground mb-1">Create your account</h2>
-            <p className="text-sm text-muted-foreground mb-5">Join Cartory Travel AI for free</p>
+            <p className="text-sm text-muted-foreground mb-5">Join Traveltics for free</p>
             <form onSubmit={handleEmailSignup} className="space-y-4">
               <div>
                 <label className="text-sm font-medium text-foreground mb-1.5 block">Email</label>

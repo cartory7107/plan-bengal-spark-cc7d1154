@@ -41,7 +41,7 @@ const WhoMadeThis = () => {
             <ArrowLeft className="w-4 h-4" /> Back to Planner
           </Link>
           <span className="text-sm font-bold tracking-tight text-foreground">
-            Cartory <span className="gradient-text">Travel</span> AI
+            Traveltics
           </span>
         </div>
       </nav>
@@ -68,13 +68,13 @@ const WhoMadeThis = () => {
             <div className="glass-card rounded-3xl p-8 md:p-12 flex flex-col md:flex-row items-center gap-8">
               {/* Avatar placeholder */}
               <div className="shrink-0 w-36 h-36 md:w-44 md:h-44 rounded-2xl overflow-hidden shadow-xl shadow-primary/20">
-                <img src={founderPhoto} alt="Al Amin Jisan - Founder of Cartory BD" className="w-full h-full object-cover" />
+                <img src={founderPhoto} alt="Al Amin Jisan - Founder of Traveltics" className="w-full h-full object-cover" />
               </div>
               <div className="text-center md:text-left space-y-3 flex-1">
                 <h2 className="text-3xl font-extrabold tracking-tight text-foreground">Al Amin Jisan</h2>
-                <p className="text-sm font-semibold uppercase tracking-wider text-primary">CEO &amp; Founder of Cartory BD</p>
+                <p className="text-sm font-semibold uppercase tracking-wider text-primary">CEO &amp; Founder of Traveltics</p>
                 <p className="text-muted-foreground leading-relaxed">
-                  Al Amin Jisan is a young tech entrepreneur from Bangladesh and the founder of Cartory BD. He is building intelligent AI-powered digital platforms designed to help businesses, travelers, and creators worldwide.
+                  Al Amin Jisan is a young tech entrepreneur from Bangladesh and the founder of Traveltics. He is building intelligent AI-powered digital platforms designed to help businesses, travelers, and creators worldwide.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
                   He focuses on creating practical AI solutions that solve real-world problems using automation and smart systems.
@@ -95,18 +95,18 @@ const WhoMadeThis = () => {
                   This platform represents innovation from Bangladesh and demonstrates how young developers from the country are building global-level AI tools and digital solutions.
                 </p>
                 <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-                  Cartory BD aims to position Bangladesh as a future technology innovation hub in South Asia.
+                  Traveltics aims to position Bangladesh as a future technology innovation hub in South Asia.
                 </p>
               </div>
             </div>
           </section>
 
-          {/* ─── SECTION 4: ABOUT CARTORY BD ─── */}
+          {/* ─── SECTION 4: ABOUT TRAVELTICS ─── */}
           <section className="sr space-y-8">
             <div className="text-center space-y-3">
-              <h2 className="text-3xl font-extrabold tracking-tight text-foreground">About Cartory BD</h2>
+              <h2 className="text-3xl font-extrabold tracking-tight text-foreground">About Traveltics</h2>
               <p className="text-muted-foreground max-w-xl mx-auto leading-relaxed">
-                Cartory BD is an emerging AI-focused technology initiative working on smart automation tools, travel intelligence platforms, and digital business solutions.
+                Traveltics is an emerging AI-focused technology initiative working on smart automation tools, travel intelligence platforms, and digital business solutions.
               </p>
             </div>
 

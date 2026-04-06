@@ -10,7 +10,7 @@ const Footer = ({ language = "English" }: { language?: string }) => (
           <Plane className="w-5 h-5 text-primary-foreground" />
         </div>
         <span className="text-lg font-bold tracking-tight text-foreground">
-          Cartory <span className="gradient-text">Travel</span> AI
+          Traveltics
         </span>
       </a>
 
@@ -25,7 +25,7 @@ const Footer = ({ language = "English" }: { language?: string }) => (
         >
           <MessageCircle className="w-5 h-5 text-primary" />
         </a>
-        <a href="mailto:support@cartorytravel.ai"
+        <a href="mailto:support@traveltics.ai"
           className="glass-card rounded-full p-3 transition-all duration-200 hover:shadow-lg active:scale-95"
           aria-label="Email Support"
         >

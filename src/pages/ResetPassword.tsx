@@ -59,7 +59,7 @@ const ResetPassword = () => {
             <Plane className="w-5 h-5 text-primary-foreground" />
           </div>
           <span className="text-lg font-bold text-foreground">
-            Cartory <span className="gradient-text">Travel</span> AI
+            Traveltics
           </span>
         </div>
 
