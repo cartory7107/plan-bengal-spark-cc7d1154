@@ -176,7 +176,7 @@ const bn: Record<TranslationKey, string> = {
   generating: "আপনার প্ল্যান তৈরি হচ্ছে...",
   generateBtn: "AI ট্রাভেল প্ল্যান তৈরি করুন",
   tripReady: "ট্রিপ প্রস্তুত!",
-  congratsMsg: "আপনি Cartory Travel AI ব্যবহার করে একটি স্মার্ট অপটিমাইজড ট্রিপ প্ল্যান করছেন।",
+  congratsMsg: "আপনি Traveltics ব্যবহার করে একটি স্মার্ট অপটিমাইজড ট্রিপ প্ল্যান করছেন।",
   budgetDisclaimer: "প্রকৃত মূল্য মৌসুম এবং প্রাপ্যতার উপর নির্ভর করে পরিবর্তিত হতে পারে।",
   itineraryTitle: "দিন-দিন ইটিনারারি",
   hotelsTitle: "হোটেল সাজেশন",
