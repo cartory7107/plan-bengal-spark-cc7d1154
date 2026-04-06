@@ -236,7 +236,7 @@ export const translations: Translations = {
     generateBtn: "AI ट्रैवल प्लान बनाएं",
     generating: "आपकी योजना बनाई जा रही है...",
     tripReady: "ट्रिप तैयार है!",
-    congratsMsg: "आप Cartory Travel AI का उपयोग करके एक स्मार्ट ऑप्टिमाइज़्ड ट्रिप प्लान कर रहे हैं।",
+    congratsMsg: "आप Traveltics का उपयोग करके एक स्मार्ट ऑप्टिमाइज़्ड ट्रिप प्लान कर रहे हैं।",
     footerTagline: "बांग्लादेश से पहला AI ट्रैवल प्लानिंग सहायक",
     madeBy: "❤️ से बनाया",
   }),

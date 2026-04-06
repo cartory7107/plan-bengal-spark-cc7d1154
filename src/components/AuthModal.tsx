@@ -237,7 +237,7 @@ const AuthModal = ({ isOpen, onClose, defaultTab = "login" }: AuthModalProps) =>
           <div>
             <BackButton to="main" />
             <h2 className="text-xl font-bold text-foreground mb-1">Create your account</h2>
-            <p className="text-sm text-muted-foreground mb-5">Join Cartory Travel AI for free</p>
+            <p className="text-sm text-muted-foreground mb-5">Join Traveltics for free</p>
             <form onSubmit={handleEmailSignup} className="space-y-4">
               <div>
                 <label className="text-sm font-medium text-foreground mb-1.5 block">Email</label>
