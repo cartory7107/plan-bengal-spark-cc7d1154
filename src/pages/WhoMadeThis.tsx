@@ -95,7 +95,7 @@ const WhoMadeThis = () => {
                   This platform represents innovation from Bangladesh and demonstrates how young developers from the country are building global-level AI tools and digital solutions.
                 </p>
                 <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-                  Cartory BD aims to position Bangladesh as a future technology innovation hub in South Asia.
+                  Traveltics aims to position Bangladesh as a future technology innovation hub in South Asia.
                 </p>
               </div>
             </div>
