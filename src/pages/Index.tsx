@@ -10,6 +10,7 @@ import AIChatBubble from "@/components/AIChatBubble";
 import SignUpBanner from "@/components/SignUpBanner";
 import WelcomePopup from "@/components/WelcomePopup";
 import SaveTripButton from "@/components/SaveTripButton";
+import AdBanner from "@/components/AdBanner";
 import { generateDynamicItinerary } from "@/lib/travelApi";
 import type { Itinerary, FormData } from "@/lib/generateItinerary";
 import { toast } from "sonner";
@@ -36,7 +37,6 @@ const Index = () => {
       setOriginalCurrency(state.itinerary?.weather?.currency || "USD");
       setDisplayCurrency(state.itinerary?.weather?.currency || detectUserCurrency());
       setTimeout(() => resultRef.current?.scrollIntoView({ behavior: "smooth" }), 200);
-      // Clear state to avoid re-triggering
       window.history.replaceState({}, document.title);
     }
   }, [location.state]);
@@ -52,7 +52,6 @@ const Index = () => {
       toast.success("Your AI travel plan is ready!");
       setTimeout(() => resultRef.current?.scrollIntoView({ behavior: "smooth" }), 100);
 
-      // Save to search history if logged in
       if (user) {
         await supabase.from("search_history").insert({
           user_id: user.id,
@@ -82,6 +81,9 @@ const Index = () => {
       <AnimatedBackground />
       <Navbar language={language} onLanguageChange={setLanguage} />
       <HeroSection language={language} />
+      <div className="container max-w-4xl mx-auto px-4">
+        <AdBanner />
+      </div>
       <TravelForm onSubmit={handleSubmit} loading={loading} language={language} />
       {itinerary && (
         <div ref={resultRef}>
@@ -96,8 +98,14 @@ const Index = () => {
             <SaveTripButton itinerary={itinerary} formData={lastFormData} />
           </div>
           {!user && <SignUpBanner />}
+          <div className="container max-w-4xl mx-auto px-4">
+            <AdBanner />
+          </div>
         </div>
       )}
+      <div className="container max-w-4xl mx-auto px-4">
+        <AdBanner />
+      </div>
       <Footer language={language} />
       <WelcomePopup />
       <AIChatBubble />
