@@ -10,6 +10,7 @@ import MyHistory from "./pages/MyHistory.tsx";
 import SavedTrips from "./pages/SavedTrips.tsx";
 import NotFound from "./pages/NotFound.tsx";
 import ResetPassword from "./pages/ResetPassword.tsx";
+import SocialBarAd from "./components/SocialBarAd.tsx";
 
 const queryClient = new QueryClient();
 
