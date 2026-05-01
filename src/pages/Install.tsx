@@ -244,7 +244,7 @@ const Install = () => {
           {[
             { icon: Shield, label: "Secure", sub: "HTTPS" },
             { icon: Zap, label: "Fast", sub: "<1s load" },
-            { icon: BadgeCheck, label: "No Ads*", sub: "Clean UX" },
+            { icon: BadgeCheck, label: "Verified", sub: "Trusted" },
           ].map(({ icon: Icon, label, sub }) => (
             <div
               key={label}
