@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Globe, LogIn, UserPlus } from "lucide-react";
+import { Globe, LogIn, UserPlus, Download } from "lucide-react";
 import { t } from "@/lib/translations";
 import { useAuth } from "@/contexts/AuthContext";
 import UserMenu from "@/components/UserMenu";
@@ -53,6 +53,14 @@ const Navbar = ({ language = "English", onLanguageChange }: NavbarProps) => {
             </div>
             <Link to="/who-made-this" className="hidden sm:block text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
               Who Made This
+            </Link>
+            <Link
+              to="/install"
+              className="flex items-center gap-1.5 text-sm font-semibold px-3 py-2 rounded-full bg-gradient-to-r from-primary to-teal-500 text-white shadow-md hover:shadow-lg active:scale-95 transition"
+              aria-label="Install App"
+            >
+              <Download className="w-4 h-4" />
+              <span className="hidden sm:inline">Install App</span>
             </Link>
 
             {!loading && (
