@@ -11,6 +11,7 @@ import SignUpBanner from "@/components/SignUpBanner";
 import WelcomePopup from "@/components/WelcomePopup";
 import SaveTripButton from "@/components/SaveTripButton";
 import AdBanner from "@/components/AdBanner";
+import InstallAppBanner from "@/components/InstallAppBanner";
 import { generateDynamicItinerary } from "@/lib/travelApi";
 import type { Itinerary, FormData } from "@/lib/generateItinerary";
 import { toast } from "sonner";
@@ -80,6 +81,7 @@ const Index = () => {
     <div className="relative min-h-screen">
       <AnimatedBackground />
       <Navbar language={language} onLanguageChange={setLanguage} />
+      <InstallAppBanner />
       <HeroSection language={language} />
       <div className="container max-w-4xl mx-auto px-4">
         <AdBanner />
