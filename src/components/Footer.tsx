@@ -32,6 +32,13 @@ const Footer = ({ language = "English" }: { language?: string }) => (
         </a>
       </div>
 
+      <Link
+        to="/install"
+        className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-primary to-teal-500 text-white text-sm font-semibold shadow-md hover:shadow-lg active:scale-95 transition"
+      >
+        📲 Install App
+      </Link>
+
       <p className="text-xs text-muted-foreground pt-4">
         {t(language, "madeBy")} <Link to="/who-made-this" className="font-semibold text-foreground hover:text-primary transition-colors underline-offset-2 hover:underline">AL-AMIN JISAN</Link>
       </p>
